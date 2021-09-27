@@ -1,12 +1,12 @@
 package com.company;
 
-public class Water extends Products{
+public class Products {
     public String name;
     public Integer cost;
 
-    public Water() {
-        this.name = "Water";
-        this.cost = 30;
+    public Products() {
+        this.name = name;
+        this.cost = cost;
     }
 
     public String getName() {

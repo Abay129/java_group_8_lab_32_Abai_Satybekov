@@ -1,6 +1,6 @@
 package com.company;
 
-public class Apples {
+public class Apples extends Products {
     public String name;
     public Integer cost;
 
