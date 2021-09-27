@@ -30,6 +30,7 @@ public class SellMachine {
                 printMenu();
                 action();
             }else if (choice == 2){
+                Printer.print(pokupki);
                 System.exit(0);
             }
         } else if (money>= candie.cost && money < apple.cost){
@@ -48,6 +49,7 @@ public class SellMachine {
                 printMenu();
                 action();
             }else if (choice == 3){
+                Printer.print(pokupki);
                 System.exit(0);
             }
         }else if (money>= apple.cost && money < water.cost){
@@ -72,6 +74,7 @@ public class SellMachine {
                 printMenu();
                 action();
             }else if (choice == 4){
+                Printer.print(pokupki);
                 System.exit(0);
             }
         }else if (money>= water.cost && money < chocolate.cost){
@@ -102,6 +105,7 @@ public class SellMachine {
                 printMenu();
                 action();
             }else if (choice == 5){
+                Printer.print(pokupki);
                 System.exit(0);
             }
         }else if (money>= chocolate.cost){
@@ -138,8 +142,7 @@ public class SellMachine {
                 printMenu();
                 action();
             }else if (choice == 6){
-                var productions = pokupki;
-                System.out.println(pokupki);
+                Printer.print(pokupki);
                 System.exit(0);
             }
         }
