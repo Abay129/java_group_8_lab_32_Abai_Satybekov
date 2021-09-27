@@ -4,9 +4,9 @@ public class Apples {
     public String name;
     public Integer cost;
 
-    public Apples(String name, Integer cost) {
-        this.name = name;
-        this.cost = cost;
+    public Apples() {
+        this.name = "Apple";
+        this.cost = 20;
     }
 
     public String getName() {

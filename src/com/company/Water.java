@@ -4,9 +4,9 @@ public class Water {
     public String name;
     public Integer cost;
 
-    public Water(String name, Integer cost) {
-        this.name = name;
-        this.cost = cost;
+    public Water() {
+        this.name = "Water";
+        this.cost = 30;
     }
 
     public String getName() {
